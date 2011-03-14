@@ -1,0 +1,42 @@
+jQuery Performance Cheat Sheet
+
+
+
+Selectors performance tips:
+1. Always Descend From an #id
+2. Use Tags Before Classes
+3. Use Sub-queries
+4. Optimize selectors for Sizzle’s ‘right to left’ model
+5. Use find() rather than context
+6. Harness the Power of Chaining
+7. Write your own selectors
+
+DOM manipulation performance tips:
+8. Cache jQuery Objects
+9. Wrap everything in a single element when doing any kind of DOM insertion
+10. Use object detection even if jQuery doesn’t throw an error
+11. Use direct functions rather than their convenience counterparts
+12. Store jQuery results for later
+13. Use jQuery’s internal data() method to store state
+14. Use jQuery’s utility functions
+15. Add a JS class to your HTML attribute
+
+Events performance tips:
+16. Defer to $(window).load
+17. Leverage Event Delegation (a.k.a. Bubbling)
+18. Shorthand for the ready event
+
+Testing jQuery:
+19. jQuery Unit Testing
+20. Benchmark Your jQuery Code
+
+General jQuery performance tips:
+21. Use latest version of jQuery
+22. Use HTML 5
+23. Append style tags when styling 15 or more elements
+24. Don’t load code that isn’t needed
+25. Keep download times to a minimum with one compressed master JS file.
+26. Combine jQuery with raw Javascript where needed
+27. Load the framework from Google Code
+28. Lazy load content for speed and SEO benefits
+
